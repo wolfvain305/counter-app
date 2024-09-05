@@ -1,0 +1,78 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    background-color: teal;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 6vw;
+  }
+  
+  #value {
+    text-decoration: underline;
+    font-size: 8vw;
+  }
+  
+  .board {
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .dropdown-container {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+  }
+
+  .dropdown-container:hover .dropdown-menu {
+    display: block; /* show the menu on hover */
+  }
+  
+  #number {
+    display: flex;
+    width: 3rem;
+    height: 3.75rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  button {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+  }
+  
+  button:hover {
+    background-color: white;
+    color: #030303;
+    box-shadow: 0 8px 24px rgba(255, 0, 0, 0.5);
+  }
+  
+  .red {
+    color: red;
+  }
